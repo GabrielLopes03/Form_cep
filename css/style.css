@@ -9,7 +9,7 @@
 
 :root{
     --bg-color: #5a5a5a;
-    --primary-color: #02ff17;
+    --primary-color: #ffffff;
     --secundaria-color: #000000;
 }
 
@@ -86,7 +86,7 @@ body{
 }
 
 .inputbox input:focus +label,
-.inputbox input:valid{
+.inputbox input:valid +label{
     top: -40px;
     left: 0px;
 }
@@ -98,10 +98,15 @@ body{
     border: none;
     cursor: pointer;
     background-color: #000000;
-    color: #02ff17;
+    color: #ffffff;
     font-size: 20px;
     font-weight: bold;
     border-radius: 2px;
+}
+
+.container button:hover{
+    color: #ffffff;
+    background-color: #232323;
 }
 
 footer{
